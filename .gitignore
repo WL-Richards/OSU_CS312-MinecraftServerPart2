@@ -1,0 +1,8 @@
+# Terraform ignores
+**/.terraform/*
+**/*.tfstate
+**/*.tfstate.*
+*.hcl
+
+# AWS Ignores
+*.pem
