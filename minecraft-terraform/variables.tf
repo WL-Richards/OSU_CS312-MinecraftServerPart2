@@ -6,13 +6,13 @@ variable "project_name" {
 
 variable "volume_size" {
   description = "Size of the created EC2 instance volume in GiB"
-  type        = int
+  type        = number
   default     = 9
 }
 
 variable "instance_type" {
   description = "What resources we want to give to the instance"
   type        = string
-  default     = "acme-minecraft"
+  default     = "t3.medium"
 }
 
